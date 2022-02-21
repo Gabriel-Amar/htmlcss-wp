@@ -50,3 +50,67 @@ ul li{
 a{
     text-decoration: none;
 }
+
+/* Main */
+
+.image{
+    height: 530px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.content{
+    height: 530px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.frase1, .frase2{
+    color: white;
+    position: absolute;
+    width: 50%;
+    left: 50px;
+}
+.frase2{
+    bottom: 70px; 
+    font-size: 20px; 
+}
+.frase1{
+    bottom: 150px;
+    font-size: 35px;
+}
+.titolo{
+    padding: 40px 0;
+    font-size: 25px;
+}
+.titolo h3{
+    color: rgb(172, 171, 171);
+}
+.container{
+    height: 600px;  
+}
+.card{
+    width: 60%;
+    float: left;    
+    height: 480px;
+    padding-left: 10px;
+}
+.card-side{
+    width: 20%;
+    padding: 0 20px;
+}
+main img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+p{
+    padding: 4px 10px;
+    color: rgb(0, 0, 0);
+}
+p:nth-of-type(2){
+    color: rgb(180, 180, 180);
+}
