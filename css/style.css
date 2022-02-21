@@ -1,0 +1,55 @@
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utility */
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.debug{
+    border: 3px solid black;
+}
+/* Header */
+header, main, footer{
+    width: 80%;
+    margin: 20px auto;
+}
+.logo{
+    height: 120px;
+    background-color: blueviolet;
+}
+.image{
+    height: 500px;
+    background-color: yellow;
+    margin-top: 20px;
+}
+.titolo{
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+.container{
+    height: 600px;
+    background-color: blue;
+    
+}
+.card{
+    width: 60%;
+    float: left;
+    background-color: aqua;
+    height: 480px;
+    /* aggiungere padding */
+}
+.card-side{
+    width: 20%;
+}
+.designed{
+    height: 60px;
+    background-color: slateblue;
+}
+
